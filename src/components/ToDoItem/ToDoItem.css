@@ -1,0 +1,45 @@
+.todoItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+}
+.todoItem__name {
+      font-size: 20px;
+      cursor: pointer;
+      flex: 1;
+      overflow-wrap: break-word;
+}
+.todoItem__input {
+      font-size: 20px;
+      cursor: pointer;
+      flex: 1;
+      overflow-wrap: break-word;
+      font-size: 20px;
+      outline: none;
+      border: none;
+      background-color: white;
+      overflow: auto;
+}
+.completed {
+      text-decoration: line-through;
+}
+button {
+      outline: none;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      padding: 10px;
+      font-weight: 500;
+      min-width: 50px;
+}
+.btn__markCompleted {
+      color: blue;
+}
+.btn__delete {
+      color: red;
+}
+.border {
+      border: 0.5px solid black;
+}
